@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter_webrtc/flutter_webrtc.dart' as rtc;
 
 class MediaDevice {
-  MediaDevice(this.deviceId, this.label, this.kind);
+  const MediaDevice(this.deviceId, this.label, this.kind);
 
   final String deviceId;
   final String label;
